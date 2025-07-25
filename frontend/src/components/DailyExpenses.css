@@ -1,0 +1,84 @@
+.daily-expense-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.app-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-title {
+  font-size: 18px;
+    color: #44abff;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: #007BFF;
+  cursor: pointer;
+}
+.form-row {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.form-row label {
+  width: 80px;
+}
+.small-input {
+  flex: 1;
+  padding: 6px;
+  margin-right: 8px;
+}
+.budget-input {
+  width: 100px;
+  padding: 6px;
+  margin-left:6px;
+}
+.save-btn {
+  padding: 6px 12px;
+  margin-left: 10px;
+  background: #eee;
+  border: 1px solid #999;
+  cursor: pointer;
+}
+.comment-row textarea.comment-box {
+  width: 100%;
+  height: 80px;
+  margin-left: 10px;
+  padding: 10px;
+}
+.date-input {
+  width: 150px;
+  padding: 6px;
+  margin-left: 10px;
+}
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.tracker-title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tracker-title h1 {
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+  color: #5e2a7e;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 0px 1px 1px #aaa;
+}
